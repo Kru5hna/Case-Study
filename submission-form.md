@@ -128,7 +128,8 @@
 
 ## 11. GitHub repository
 
-**Repository URL:** https://github.com/kru5hna/Case-Study
+**Repository URL:** https://github.com/kru5hna/Case-Study  
+**Optional prototype included:** Yes — `synthetic_offcut_matcher.py` (with documentation in `prototype_README.md` and sample results in `synthetic_offcut_matches.csv`). Demonstrates read-only offcut screening and cross-project policy checks using 100% synthetic data.
 
 **Submission checklist**
 - [x] Compile `case_study.tex` to `case_study.pdf`; verify no more than six main pages plus appendix.
@@ -136,3 +137,4 @@
 - [x] Insert actual GitHub repository URL after creating the repository.
 - [x] Confirm all assumptions and AI-usage disclosure are accurate.
 - [x] Ensure no confidential discovery notes are in the repository.
+- [x] (Optional) Prototype uploaded to repository with pure synthetic data.
