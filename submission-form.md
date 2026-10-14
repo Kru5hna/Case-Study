@@ -128,7 +128,7 @@
 
 ## 11. GitHub repository
 
-**Repository URL:** Pending creation; no real URL has been supplied, so I have not invented one. Before submission, create a repository and insert its actual URL here. Keep it private unless the client has explicitly approved public disclosure. Do **not** upload `discovery-call-notes.txt`, call transcripts, client-identifying records, or any other confidential source material. Upload only the sanitized deliverables and any synthetic-data prototype.
+**Repository URL:** (https://github.com/kru5hna/Case-Study)
 
 **Submission checklist**
 - [ ] Compile `case_study.tex` to `case_study.pdf`; verify no more than six main pages plus appendix.
