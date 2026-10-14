@@ -128,11 +128,11 @@
 
 ## 11. GitHub repository
 
-**Repository URL:** (https://github.com/kru5hna/Case-Study)
+**Repository URL:** https://github.com/kru5hna/Case-Study
 
 **Submission checklist**
-- [ ] Compile `case_study.tex` to `case_study.pdf`; verify no more than six main pages plus appendix.
-- [ ] Compile `client-note.tex` to exactly one page.
-- [ ] Insert actual GitHub repository URL after creating the repository.
-- [ ] Confirm all assumptions and AI-usage disclosure are accurate.
-- [ ] Ensure no confidential discovery notes are in the repository.
+- [x] Compile `case_study.tex` to `case_study.pdf`; verify no more than six main pages plus appendix.
+- [x] Compile `client-note.tex` to exactly one page.
+- [x] Insert actual GitHub repository URL after creating the repository.
+- [x] Confirm all assumptions and AI-usage disclosure are accurate.
+- [x] Ensure no confidential discovery notes are in the repository.
