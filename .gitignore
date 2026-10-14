@@ -1,0 +1,16 @@
+# Confidential client data - DO NOT push
+discovery-call-notes.txt
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb

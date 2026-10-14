@@ -1,0 +1,67 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{booktabs,array,enumitem,microtype,xcolor}
+\setlist{nosep,leftmargin=*,topsep=2pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\pagestyle{empty}
+\renewcommand{\arraystretch}{1.08}
+\setlength{\tabcolsep}{4pt}
+\newcommand{\sectionlabel}[1]{\vspace{2pt}\textbf{#1}\par}
+\begin{document}
+\small
+
+{\Large\bfseries Cutting steel losses: a 6-week plan to establish the facts}\\[2pt]
+\textbf{Client B -- Structural Steel} \hfill \textbf{Client discussion note}\\
+To: Cost Control \quad|\quad From: Krushna Raut \quad|\quad October 2026 \quad|\quad Confidential
+
+\vspace{3pt}\hrule\vspace{4pt}
+
+\sectionlabel{What we heard}
+You reported steel wastage of around 7--10\% overall, 20--25\% for plates and 5--10\% for profiles. These figures have not yet been reconciled to a common definition. You also want to know whether nesting can improve, whether leftover pieces are being missed, and where AI could help.
+
+\sectionlabel{What we recommend}
+We recommend a time-boxed, six-week \textbf{``Measure and Prove'' pilot}, starting with evidence rather than a new AI system. The reported waste rates are a starting point, not a verified baseline, and we will not assume that all reported waste is preventable.
+
+\begin{enumerate}
+\item \textbf{Establish a baseline.} Reconcile available nesting, purchase, cutting and scrap records. Separate finished-part material, cutting/process loss, reusable offcuts, scrap and unexplained differences. We will label loss as \emph{preventable only where the evidence supports that conclusion}; we will not count stored offcuts as realized savings.
+\item \textbf{Compare current methods.} Subject to data availability, compare manual plans with Strumis automatic nesting on up to 40 comparable historical jobs. The nesting team will check feasibility against agreed rules. We will report yield, feasibility and planner time, including uncertainty and any limits in the sample.
+\item \textbf{Test offcut matching in read-only mode.} Check whether recorded offcuts appear to fit upcoming or historical part requirements, using grade, thickness, dimensions, certification and location where recorded. This is a list of \emph{candidate matches}, not an instruction to cut or transfer material.
+\end{enumerate}
+
+\textbf{No automatic production changes.} Your nesting lead retains approval of cutting plans. No cross-project material transfer or accounting change will occur unless Finance first confirms the policy and approval process.
+
+\sectionlabel{What we need from you}
+\begin{itemize}
+\item A nesting lead (approximately 4 hours/week), plus named Finance and IT contacts.
+\item Read-only access to available nesting reports and the offcut register; purchase, cutting and scrap records where available.
+\item Agreement on how waste/yield is defined and what counts as a usable offcut.
+\item Finance's current rules for project ownership, cross-project reuse and cost transfer.
+\end{itemize}
+
+\sectionlabel{Timing and decision points}
+\begin{tabular}{@{}p{2.7cm}p{\dimexpr\textwidth-2.7cm-2\tabcolsep\relax}@{}}
+\toprule
+\textbf{End of week 2} & Data-readiness gate. If key records are unavailable or cannot be reconciled, we will agree a manual sample or stop/re-scope before proceeding.\\
+\textbf{End of week 3} & \textbf{First result:} a preliminary baseline with data coverage, definitions, and gaps clearly stated.\\
+\textbf{End of week 6} & Findings from the nesting comparison and offcut-matching test, plus a recommendation to tune existing tools, improve tracking, evaluate a commercial option, investigate custom development, or stop.\\
+\bottomrule
+\end{tabular}
+
+A short review of available CarTrack and booking-system exports may help rank a future equipment-utilisation opportunity. It is a prioritisation check only, not a separate fleet optimisation implementation within this pilot. Separately, tracking drawing revisions may help identify client-caused changes that are potentially claimable; we would assess the evidence and contract rules before estimating any recovery.
+
+\sectionlabel{Indicative cost and potential value}
+The proposed pilot fee is \textbf{INR 18 lakh}, with 30\% at kickoff, 40\% on delivery of the week-3 baseline, and 30\% on the week-6 readout. This is an \emph{indicative proposal}, subject to confirming data access, scope and delivery assumptions. Your team's time is estimated at approximately 50--55 staff-hours across six weeks. Any hosting or ongoing support cost will be confirmed before the pilot ends; no new software licence is assumed at this stage.
+
+For scale only: if verified annual throughput is 80,000 tonnes, a 0.5 percentage-point reduction in purchased steel that would otherwise become unrecovered loss represents 400 tonnes. At an illustrative net avoidable cost of INR 30,000/tonne, that equals \textbf{INR 1.2 crore/year}. This is a sensitivity example, \emph{not a savings forecast}: actual throughput, purchase prices, scrap recovery, loss categories and achievable improvement must be validated. Reusable stock counts as a saving only when reuse actually avoids a purchase or other cost.
+
+\sectionlabel{What we will not do}
+We will not build a custom AI nesting engine before testing the existing Strumis feature. We will not promise a waste reduction in advance, automatically move material between projects, or change what is sent to CNC during the pilot.
+
+\vspace{2pt}
+\hrule
+\textbf{Next step:} a 45-minute discovery session with the nesting lead, Finance and IT to confirm data availability, definitions, approval rules and the week-2 go/no-go criteria.
+
+\end{document}
