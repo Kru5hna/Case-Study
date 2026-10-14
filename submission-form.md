@@ -128,11 +128,13 @@
 
 ## 11. GitHub repository
 
-**Repository URL:** Pending creation; no real URL has been supplied, so I have not invented one. Before submission, create a repository and insert its actual URL here. Keep it private unless the client has explicitly approved public disclosure. Do **not** upload `discovery-call-notes.txt`, call transcripts, client-identifying records, or any other confidential source material. Upload only the sanitized deliverables and any synthetic-data prototype.
+**Repository URL:** https://github.com/kru5hna/Case-Study  
+**Optional prototype included:** Yes — `synthetic_offcut_matcher.py` (with documentation in `prototype_README.md` and sample results in `synthetic_offcut_matches.csv`). Demonstrates read-only offcut screening and cross-project policy checks using 100% synthetic data.
 
 **Submission checklist**
-- [ ] Compile `case_study.tex` to `case_study.pdf`; verify no more than six main pages plus appendix.
-- [ ] Compile `client-note.tex` to exactly one page.
-- [ ] Insert actual GitHub repository URL after creating the repository.
-- [ ] Confirm all assumptions and AI-usage disclosure are accurate.
-- [ ] Ensure no confidential discovery notes are in the repository.
+- [x] Compile `case_study.tex` to `case_study.pdf`; verify no more than six main pages plus appendix.
+- [x] Compile `client-note.tex` to exactly one page.
+- [x] Insert actual GitHub repository URL after creating the repository.
+- [x] Confirm all assumptions and AI-usage disclosure are accurate.
+- [x] Ensure no confidential discovery notes are in the repository.
+- [x] (Optional) Prototype uploaded to repository with pure synthetic data.

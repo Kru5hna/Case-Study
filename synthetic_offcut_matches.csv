@@ -1,0 +1,4 @@
+part_id,offcut_id,offcut_project,part_project,status,same_project,offcut_book_value_inr,incremental_cost_inr,estimated_total_reuse_cost_inr,new_material_cost_inr,illustrative_advantage_inr,reasons
+PART-01,O-101,P-A,P-B,ELIGIBLE,False,6000,1450,7450,8000,550,"Engineering screen passed and illustrative reuse cost is below new-material cost. Candidate only: confirm physical identity, dimensions, certification, location, CNC feasibility and cost policy."
+PART-02,O-102,P-A,P-E,REQUIRES_APPROVAL,False,7200,1450,8650,9500,850,"Cross-project transfer requires Finance/project approval before any use. Candidate only: confirm physical identity, dimensions, certification, location, CNC feasibility and cost policy."
+PART-04,O-103,P-C,P-F,NOT_ECONOMIC,False,9000,1450,10450,8500,-1950,"Illustrative reuse cost is not below new-material cost. Candidate only: confirm physical identity, dimensions, certification, location, CNC feasibility and cost policy."
